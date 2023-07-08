@@ -1,0 +1,76 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+}
+
+header {
+	height: 20vh;
+}
+
+main {
+	height: 60vh;
+}
+
+footer {
+	height: 20vh;
+}
+
+#section__main {
+	background-image: url('../assets/img/fondo_section_main.jpg');
+  	background-size: cover;
+  	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#aside_main {
+	background-image: url('../assets/img/fondo_aside_main.jpg');
+  	background-size: cover;
+	
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+ul, li {
+  list-style: none;
+  padding: 0vh;
+  padding-right: 15vh;
+  margin-top: 2vh; 
+  border-right: 0.5vh solid white;
+ }
+
+a:hover {
+  color: inherit; 
+}
+
+.bg-light {
+	border-radius: 3vh; !important
+}
+
+h1 {
+	margin-top: 2vh;
+}
+
+h2 {
+	margin-top: 2vh;
+}
+
+#foto_logo_nav {
+	height: 20vh;
+	width: 35vh;
+	margin-right: 5vh;
+}
+
+#section_cursos {
+	background-image: url('../assets/img/fondo_pagina_cursos.jpg');
+  	background-size: cover;
+  	background-color: rgba(0, 0, 0, 0.1);
+
+}
+
